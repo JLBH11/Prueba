@@ -181,7 +181,7 @@ public class jfrmActualizarServicio extends javax.swing.JFrame {
                       "\nEstado: " + vehiculoEncontrado.getEstadoServicio() +
                       "\nCosto: $" + vehiculoEncontrado.getCostoServicio();
 
-        JOptionPane.showMessageDialog(this, info, "Información del Vehículo", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this, info, "Información de los Vehículos", JOptionPane.INFORMATION_MESSAGE);
     } else {
         JOptionPane.showMessageDialog(this, "Vehículo no encontrado", "Error", JOptionPane.ERROR_MESSAGE);
     }
