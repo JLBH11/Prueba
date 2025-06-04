@@ -165,7 +165,7 @@ public class jfrmActualizarServicio extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+/**
     private void jButtonBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBuscarActionPerformed
     String idBuscado = jTextFieldID.getText(); // El ID que el usuario escribió
 
@@ -186,7 +186,7 @@ public class jfrmActualizarServicio extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(this, "Vehículo no encontrado", "Error", JOptionPane.ERROR_MESSAGE);
     }
     }//GEN-LAST:event_jButtonBuscarActionPerformed
-
+*/
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 jTextFieldID.setText("");
     
